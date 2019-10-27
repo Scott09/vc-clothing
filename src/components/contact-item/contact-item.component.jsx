@@ -4,17 +4,17 @@ import './contact-item.styles.scss';
 
 const ContactItem = ({ header, description, contactNumber}) => {
   return (
-    <div className="item-container">
+    <section className="item-container">
       <h1 className="item-header">
         {header}
       </h1>
-      <main className="main-content">
+      <p className="main-content">
         {description}
-      </main>
-      <div className="phone-number">
+      </p>
+      <p className="phone-number">
         {contactNumber}
-      </div>
-    </div>
+      </p>
+    </section>
   );
 }
 

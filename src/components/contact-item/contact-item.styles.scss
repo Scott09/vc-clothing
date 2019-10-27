@@ -2,16 +2,18 @@
   height: 22%;
   max-width: 50%;
   border: 1px black solid;
-  
+  text-align: center;
+  margin-top: 48px;
+
   .item-header {
-    text-align: center;
+    font-size: 18px;
   }
 
+  
   .phone-number {
-    text-align: center;
     margin-top: 24px;
     margin-bottom: 24px;
+    font-size: 14px;
   }
 
-  
 }
