@@ -2,7 +2,6 @@ import React from 'react';
 
 import './collection-preview.styles.scss';
 import CollectionItem from '../collection-item/collection-item.component';
-import { identifier } from '@babel/types';
 
 const CollectionPreview = ({ title, items }) => {
   return (
