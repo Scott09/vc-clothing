@@ -36,7 +36,6 @@ class App extends React.Component {
             console.log(this.state);
           })
         })
-        console.log(this.state);
       }
       if (userAuth === null) {
         this.setState({
