@@ -14,10 +14,7 @@ import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
 class App extends React.Component {
 
-  
-  
   unsubscribeFromAuth = null;
-
 
   componentDidMount() {
 
@@ -40,12 +37,10 @@ class App extends React.Component {
     })
   }
 
-
   componentWillUnmount() {
     this.unsubscribeFromAuth();
   }
   
-
   render() {
     return (
       <div>

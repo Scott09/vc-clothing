@@ -21,6 +21,11 @@
     .option {
       padding: 10px 15px;
       cursor: pointer;
+      opacity: 0.5;
+    }
+
+    .option:hover {
+      opacity: 1;
     }
   }
 }
